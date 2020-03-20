@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import com.cilenco.skiptrack.R;
 
+import com.anggrayudi.hiddenapi.Res;
+
 import net.grandcentrix.tray.AppPreferences;
 import net.grandcentrix.tray.core.OnTrayPreferenceChangeListener;
 import net.grandcentrix.tray.core.TrayItem;

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-skipTrackLongPressVolume.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-skipTrackLongPressVolume.iml" group="skipTrackLongPressVolume" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipTrackLongPressVolume.iml" filepath="$PROJECT_DIR$/skipTrackLongPressVolume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/skipTrackLongPressVolume-app.iml" filepath="$PROJECT_DIR$/app/skipTrackLongPressVolume-app.iml" group="skipTrackLongPressVolume/app" />
     </modules>
   </component>
 </project>

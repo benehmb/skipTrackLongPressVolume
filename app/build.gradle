@@ -24,4 +24,5 @@ dependencies {
     //implementation "androidx.preference:preference:1.0.0"
     implementation "com.android.support:preference-v7:27.1.1"
     implementation "net.grandcentrix.tray:tray:0.12.0"
+    implementation 'com.anggrayudi:android-hidden-api:28.1'
 }
