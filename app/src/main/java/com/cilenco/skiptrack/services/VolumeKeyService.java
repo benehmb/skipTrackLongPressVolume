@@ -1,17 +1,18 @@
 package com.cilenco.skiptrack.services;
 
+import android.content.ComponentName;
+import android.content.Intent;
 import android.media.AudioManager;
 import android.media.session.MediaSessionManager;
 import android.os.Handler;
 import android.os.PowerManager;
+import android.os.UserHandle;
 import android.service.notification.NotificationListenerService;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.widget.Toast;
 
 import com.cilenco.skiptrack.R;
-
-import com.anggrayudi.hiddenapi.Res;
 
 import net.grandcentrix.tray.AppPreferences;
 import net.grandcentrix.tray.core.OnTrayPreferenceChangeListener;
@@ -115,5 +116,10 @@ public class VolumeKeyService extends NotificationListenerService implements Med
         mediaSessionManager.setOnVolumeKeyLongPressListener(null, null);
         mediaSessionManager.dispatchVolumeKeyEvent(keyEvent, audioManager.getUiSoundsStreamType(), false);
         mediaSessionManager.setOnVolumeKeyLongPressListener(this, mHandler);
+    }
+
+    @Override
+    public synchronized ComponentName startForegroundServiceAsUser(Intent service, UserHandle user) {
+        return null;
     }
 }
